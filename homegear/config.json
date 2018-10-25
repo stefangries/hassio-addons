@@ -1,0 +1,26 @@
+{
+  "name": "Homegear",
+  "version": "0.1",
+  "slug": "homegear-addon",
+  "description": "Homegear Hassio add-on",
+  "url": "https://github.com/stefangries/hassio-addons/homegear",
+  "startup": "before",
+  "boot": "auto",
+  "gpio": true,
+  "host_network": true,
+  "privileged": [
+    "SYS_ADMIN",
+    "SYS_RAWIO"
+  ],
+  "map": ["config:rw", "share:rw"],
+  "ports": {
+  },
+  "environment": {
+  },
+  "options": {
+  },
+  "schema": {
+  },
+  "devices": [
+  ]
+}
