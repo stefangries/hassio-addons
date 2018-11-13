@@ -4,7 +4,7 @@
   "arch": ["armhf", "aarch64"],
   "slug": "homegear-addon",
   "description": "Homegear Hassio add-on",
-  "webui": "http://[HOST]:[PORT:2001]/"
+  "webui": "http://[HOST]:[PORT:2001]/",
   "url": "https://github.com/stefangries/hassio-addons",
   "startup": "before",
   "boot": "auto",
