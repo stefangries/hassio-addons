@@ -8,7 +8,7 @@ _term() {
 
 trap _term SIGTERM
 
-echo LOS8
+echo LOS10
 
 USER=homegear
 USER_ID=$(id -u $USER)

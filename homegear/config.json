@@ -1,12 +1,11 @@
 {
   "name": "Homegear",
-  "version": "0.1",
-  "slug": "homegear-addon",
+  "version": "0.3",
+  "slug": "homegear",
   "description": "Homegear Hassio add-on",
   "url": "https://github.com/stefangries/hassio-addons/homegear",
   "startup": "before",
   "boot": "auto",
-  "gpio": true,
   "host_network": true,
   "privileged": [
     "SYS_ADMIN",
@@ -22,5 +21,7 @@
   "schema": {
   },
   "devices": [
+    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
+    "/dev/ttyUSB0:/dev/ttyUSB0:rwm"
   ]
 }
