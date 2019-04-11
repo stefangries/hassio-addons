@@ -1,12 +1,13 @@
 {
   "name": "Homegear",
-  "version": "0.3",
+  "version": "0.3.1",
   "slug": "homegear",
   "description": "Homegear Hassio add-on",
   "url": "https://github.com/stefangries/hassio-addons/homegear",
   "startup": "before",
   "boot": "auto",
   "host_network": true,
+  "arch": ["armhf"],
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
