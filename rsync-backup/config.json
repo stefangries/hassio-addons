@@ -1,0 +1,32 @@
+{
+  "name": "rsync Backup",
+  "version": "1.0.0",
+  "slug": "rsync_backups_sgr",
+  "description": "Transfers Home Assistant directories to a remote rsync server.",
+  "startup": "once",
+  "boot": "manual",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "map": ["backup:rw", "share:rw", "config:rw", "ssl:rw", "media:rw", "addons:rw"],
+  "options": {
+    "server": "rsync-server",
+    "port": 22,
+    "directory": [{"source": "source_directory", "destination": "destination_directory", "flags": "-av"}],
+    "username": "user",
+    "password": "password",
+    "auto_purge": 0
+  },
+  "schema": {
+    "server": "str",
+    "port": "int",
+    "directory": [{"source":"str", "destination":"str", "flags":"str"}],
+    "username": "str",
+    "password": "str",
+    "auto_purge": "int"
+  }
+}
