@@ -80,7 +80,7 @@ Run addon in the automation, example automation below:
     - delay: '00:10:00'
     - service: 'hassio.addon_start'
       data:
-        addon: 'local_rsync_backups'
+        addon: '69c7aa1d_rsync_backups_sgr'
 ```
 
 # Credits

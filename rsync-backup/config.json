@@ -1,7 +1,7 @@
 {
   "name": "rsync Backup",
-  "version": "1.0.0",
-  "slug": "rsync_backups_sgr",
+  "version": "1.0.1",
+  "slug": "rsync_backup",
   "description": "Transfers Home Assistant directories to a remote rsync server.",
   "startup": "once",
   "boot": "manual",
