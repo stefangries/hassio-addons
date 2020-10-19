@@ -1,6 +1,6 @@
 # Rsync Backups add-on for Home Assistant
 
-Transfers the Hass.io backups to a remote rsync server.
+Transfers directories from your Home Assistant instance to a remote rsync server.
 
 ## Instalation
 
