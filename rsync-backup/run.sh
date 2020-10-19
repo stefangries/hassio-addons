@@ -17,7 +17,7 @@ jq -c '.directory[]' $CONFIG_PATH | while read i; do
 		
 	rsyncurl="$username@$server:$destination"
 	echo "[Info] Start rsync backups from $source to $rsyncurl"
-	sshpass -p $password rsync $flags -e 'ssh -p $port -o StrictHostKeyChecking=no' $source $rsyncurl
+	sshpass -p $password rsync $flags -e 'ssh -p '"$port"' -o StrictHostKeyChecking=no' $source $rsyncurl
 done
 
 if [ $auto_purge -ge 1 ]; then

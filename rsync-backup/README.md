@@ -60,7 +60,9 @@ Server ssh password, e.g. `password`.
 
 ### Option: `auto_purge` (required)
 
+This addon is able to delete old backup files in your `/backup` folder after syncronizing them.
 The number of recent backups keep in Home Assistant, e.g. "5". Set to "0" to disable automatic deletion of backups.
+The `auto_purge` option is only available for your `/backup` folder!
 
 ## How to use
 
