@@ -69,3 +69,5 @@ SOFTWARE.
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-portainer.svg
+[frenck]: https://github.com/frenck
+[docs]: https://github.com/stefangries/hassio-addons/blob/master/portainer/README.md
